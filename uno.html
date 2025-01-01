@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/unicorn_face.png" type="image/png" />
+    <title>Cassia Nebel | Front End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Codystar:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b5099e8b92.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <a href="./" class="home-link">Cassia</a>
+      <div class="nav-links">
+        <a href="./index.html#projects" class="nav-link">Projects</a>
+        <a href="./index.html#about" class="nav-link">About</a>
+        <a href="./index.html#reviews" class="nav-link">Reviews</a>
+        <a href="./index.html#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <section class="project-nav" id="extranav">
+      <a href="./index.html#about" class="back-link btn slide-left">
+        <i class="fa-solid fa-square-up-left"></i> <span>Back to About Me</span>
+      </a>
+      <!-- <a href="./flash-focus.html" class="next-link btn slide-right">
+        <span>Next Project</span> <i class="fa-solid fa-square-right"></i>
+      </a> -->
+    </section>
+    <main class="project-page">
+      <h1 class="project-page-heading slide-up">UNO</h1>
+      <section class="project-page-grid" id="feature">
+        <div class="project-info">
+          <p>
+            University of Nebraska Omaha (UNO) is a public university located in
+            Omaha, Nebraska. During my time there, I have been able to work on a
+            variety of projects that have helped me grow as a developer. I
+            design and develop flexible templates for diverse uses, prioritize
+            accessibility in all designs, create mobile-first layouts, and work
+            extensively within a CMS.
+          </p>
+
+          <div class="project-links">
+            <a href="https://unomaha.edu" target="_blank" class="btn blue"
+              >Live Site</a
+            >
+          </div>
+          <h2>Features</h2>
+          <ul>
+            <li>
+              <a
+                href="https://www.unomaha.edu/registrar/academic-calendar.php"
+                target="_blank"
+                >Academic Calendar</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.unomaha.edu/registrar/students/before-you-enroll/class-search/index.php"
+                target="_blank"
+                >Class Search</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.unomaha.edu/academic-programs/index.php"
+                target="_blank"
+                >Majors and Programs Search</a
+              >
+            </li>
+          </ul>
+          <h2>Technology</h2>
+          <ul>
+            <li>CMS: Cascade Server</li>
+            <li>Templating: Velocity</li>
+            <li>Styling: Bootstrap</li>
+          </ul>
+        </div>
+        <div class="triviai-images-grid group-animation">
+          <div class="triviai-image-1">
+            <img
+              class="scale-in"
+              src="./public/uno-calendar.png"
+              alt="UNO Academic Calendar"
+            />
+          </div>
+          <div class="triviai-image-2">
+            <img
+              class="scale-in"
+              src="./public/uno-class-search.png"
+              alt="UNO Class Search"
+            />
+          </div>
+          <div class="triviai-image-3">
+            <img
+              class="scale-in"
+              src="./public/uno-program.png"
+              alt="an example of a UNO program page"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

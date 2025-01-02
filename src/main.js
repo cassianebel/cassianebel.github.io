@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
       if (rect.top <= navbarHeight && rect.bottom >= navbarHeight) {
         // Section is at or below the navbar
         let linkColor = "white";
+        let bgColor = "rgb(24, 24, 27, .25)";
         if (["projects", "reviews", "feature"].includes(section.id)) {
           linkColor = "black";
+          bgColor = "rgb(228, 228, 231, .25)";
         }
 
         links.forEach((link) => {
@@ -23,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
           } else {
             link.style.color = linkColor;
+            navbar.style.backgroundColor = bgColor;
           }
         });
       }

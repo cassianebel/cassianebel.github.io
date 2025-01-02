@@ -541,9 +541,16 @@ button[type="submit"] {
 }
 .project-links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .project-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
 }
 
 /** YUMBLE PROJECT PAGE **/

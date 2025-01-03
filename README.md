@@ -1,16 +1,18 @@
-## Hi there 👋
+# 👋 Hi, I’m Cassia!
 
-<!--
-**cassianebel/cassianebel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎨 Designer turned Front-End Developer
 
-Here are some ideas to get you started:
+💻 HTML, CSS, & JavaScript Enthusiast
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+☕ Fueled by coffee, tea and curiosity
+
+## 🌟 Cool Projects
+-	⚡ [Flash Focus](https://github.com/cassianebel/flash-focus) - a fun flashcard study app
+-	🥑 [Yumble](https://github.com/cassianebel/yumble) - find recipes that fit your preferences
+-	🍿 [Flix Finder](https://github.com/cassianebel/flix-finder) - movie search app
+-	👾 [triviAI](https://github.com/cassianebel/trivia-with-openai) - trivia app powered by AI
+
+
+## 🔎 Find Out More
+- 🖼️ [Portfolio](https://cassianebel.github.io/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/cassianebel/)
